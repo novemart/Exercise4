@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="myStyles.css" />
+    <style>
+        h1 {
+            color: magenta;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <script>
+        function mouseEnterHandler() {
+            document.getElementById("myh2").style.color = "blue";
+        }
+
+        function clickHandler(){
+
+            document.getElementById("aquamarinePara").innerHTML="You clicked!"
+        }
+    </script>
+
+</head>
+
+<body>
+<h3>This was added through vi!</h3>
+    <h1 style="color:blue">Heading 1</h1>
+    <h2 id="myh2" onmouseenter="mouseEnterHandler()">Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h6>Heading 6</h6>
+
+    <p id="aquamarinePara" class="pinkClass">This is a paragraph
+        element. It starts on a new
+        line.</p>
+
+    <p class="pinkClass" onclick="clickHandler()">Another paragraph.
+    <h4 class="pinkClass">Child element.</h4>
+    </p>
+
+
+    <a class="btn btn-primary" href="http://www.sky.com">
+        Sky page here</a>
+    <br />
+
+
+    <a href="http://google.com" target="_blank">
+        <img src="pics/puppy.jpeg" height="300px" alt="This is a puppy picture" />
+    </a>
+
+    <!-- ul stands for unordered list -->
+    <ul class="pinkClass">
+        <li>Milk</li>
+        <li>Chocolate</li>
+        <li>Flowers</li>
+    </ul>
+
+    <ol>
+        <li>Number one</li>
+        <li>Number Two</li>
+        <li>Number Three</li>
+    </ol>
+
+    <table>
+        <!-- tr stands for table row-->
+        <tr>
+            <!-- table header-->
+            <th>Author</th>
+            <th>Title</th>
+        </tr>
+        <tr>
+            <!-- td tble data-->
+            <td>G. Orwell</td>
+            <td>1984</td>
+        </tr>
+        <tr>
+            <!-- td tble data-->
+            <td>G. Orwell</td>
+            <td><b>Animal</b> Farm</td>
+        </tr>
+    </table>
+
+    <div>
+        <p>My new p</p>
+        <p>Another p</p>
+    </div>
+    <nav>
+
+    </nav>
+
+
+    <a href="http://www.sky.com">Click here!</a>
+
+
+    <button class="btn btn-warning">Click me!</button>
+    <footer>Created by me
+        &gt;
+        &copy;
+    </footer>
+
+
+</body>
+
+</html>

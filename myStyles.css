@@ -1,0 +1,13 @@
+h1{
+    color: red;
+    font-size: 40px;
+}
+#aquamarinePara{
+    color: aquamarine;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+.pinkClass{
+    color:#FE318B;
+}
